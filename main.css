@@ -1,0 +1,452 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.div1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 490px;
+}
+
+.div1-section1 {
+  background-image: url(images/sleepingboy.jpg);
+  color: white;
+  flex-grow: 3;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.div1-10percent {
+  font-size: 35px;
+  font-weight: bold;
+  position: relative;
+  top: 100px;
+  left: 40px;
+}
+
+.div1-text {
+  font-size: 14px;
+}
+
+.div1-middle {
+  width: 350px;
+  position: relative;
+  top: 90px;
+  left: 40px;
+}
+
+.div1-a {
+  color: black;
+  text-decoration: none;
+  background-color: white;
+  margin-left: 40px;
+  padding: 15px 20px;
+  border-radius: 4px;
+  position: relative;
+  top: 120px;
+}
+
+.div1-a:hover {
+  color: rgb(30, 48, 110);
+}
+
+.div1-bottom {
+  position: relative;
+  top: 250px;
+  left: 40px;
+}
+
+.div1-section2 {
+  background-image: url(images/2moons.jpg);
+  flex-grow: 1;
+  color: white;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.div1-sec2-text {
+  width: 120px;
+  font-size: 20px;
+  position: relative;
+  top: 350px;
+  left: 40px;
+}
+
+.div1-sec2-text1 {
+  width: 120px;
+  font-size: 15px;
+  position: relative;
+  top: 350px;
+  left: 40px;
+}
+.div2 {
+  width: 100%;
+  height: 300px;
+}
+
+.div2-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.div2-container > section {
+  flex-basis: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.div2-p {
+  font-size: 13px;
+  color: rgb(30, 48, 110);
+}
+
+.div2-disclaimer {
+  font-size: 13px;
+  width: 800px;
+  color: darkgray;
+  text-align: center;
+  position: relative;
+  left: 300px;
+  bottom: -40px;
+}
+
+.div3 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: space-around;
+  margin: auto 15px;
+}
+
+.div3 > section {
+  width: 275px;
+  text-align: center;
+}
+
+.div3-title {
+  font-size: 25px;
+  color: rgb(30, 48, 110);
+}
+
+.div3-title1 {
+  font-weight: 900;
+  font-size: 28px;
+}
+
+.div3-description {
+  margin-bottom: 35px;
+}
+.div3-img {
+  width: 250px;
+  height: 180px;
+}
+
+.div3-prices {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 100px;
+}
+
+.div3-from {
+  color: rgb(0, 132, 130);
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.div3-or {
+  font-size: 11px;
+  color: rgb(30, 48, 110);
+  font-weight: bolder;
+}
+
+.div3-low {
+  font-size: 25px;
+  font-weight: bolder;
+  color: rgb(30, 48, 110);
+}
+
+.div3-button {
+  text-decoration: none;
+  background-color: rgb(30, 48, 110);
+  color: white;
+  border-radius: 4px;
+  padding: 12px 72px;
+}
+
+.div3-button:hover {
+  background-color: #4652f2;
+}
+
+.div4 {
+  width: 100%;
+  height: 434px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+.div4 > section {
+  flex-basis: 240px;
+  text-align: center;
+}
+
+.div4-header {
+  color: rgb(30, 48, 110);
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+.div4-text {
+  font-size: 14px;
+}
+
+.div4 img {
+  height: 125px;
+  width: 125px;
+}
+
+.div4-a {
+  color: rgb(30, 48, 110);
+}
+
+.div4-shipping {
+  font-size: 12px;
+  text-align: center;
+  position: relative;
+  bottom: 75px;
+  color: lightgray;
+}
+
+.div4-ship-a {
+  color: lightgray;
+}
+
+.div5 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 475px;
+  background-color: #4652f2;
+  color: white;
+}
+
+.div5-1 {
+  padding-top: 20px;
+  padding-left: 40px;
+  flex-basis: 30%;
+  align-content: space-between;
+}
+
+.div5-img1 {
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  right: 0;
+  margin-top: 30px;
+}
+
+.div5-img2 {
+  width: 700px;
+  height: 300px;
+  position: relative;
+  margin-top: 100px;
+  margin-left: 120px;
+}
+
+.div6 {
+  background-image: url(/images/homepage-labs-d_copy.jpg);
+  background-size: 100%;
+  object-fit: fill;
+  background-repeat: no-repeat;
+  height: 280px;
+  width: 100%;
+  color: rgb(30, 48, 110);
+}
+
+.div6 > div {
+  padding-left: 25px;
+  padding-top: 50px;
+}
+
+.div6-img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.div6-text {
+  position: relative;
+  font-size: 20px;
+  bottom: 13px;
+}
+
+.div7 {
+  width: 100%;
+  height: 600px;
+}
+
+.div7-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-shrink: 1;
+}
+
+.div7-header {
+  text-align: center;
+  width: 100%;
+  font-size: 40px;
+  padding-top: 15px;
+  color: rgb(30, 48, 110);
+}
+
+.div7-container > div {
+  display: flex;
+  flex-direction: column;
+  /* align-content: center; */
+  justify-content: center;
+  text-align: center;
+  /* flex-wrap: wrap; */
+}
+
+.div7-title {
+  color: rgb(30, 48, 110);
+  font-size: 30px;
+  margin-top: 0px;
+}
+
+.div7-button {
+  text-decoration: none;
+  background-color: rgb(30, 48, 110);
+  color: white;
+  border-radius: 4px;
+  padding: 12px 72px;
+  margin-top: 10px;
+  margin-right: 0px;
+}
+
+.div7-button:hover {
+  background-color: #4652f2;
+}
+
+.div8 {
+  width: 100%;
+  height: 473px;
+}
+
+.div8-text {
+  width: 100%;
+  font-size: 40px;
+  font-weight: bolder;
+  color: rgb(30, 48, 110);
+  height: 50px;
+  text-align: center;
+}
+
+.div8-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.div8-card {
+  width: 300px;
+  margin: 20px;
+  box-shadow: 5px 5px 5px lightgray;
+}
+
+.div9 {
+  background-color: rgb(249, 245, 245);
+  width: 100%;
+  height: 350px;
+  text-align: center;
+  display: block;
+}
+
+.div9-container {
+  position: relative;
+  width: 850px;
+  margin: auto;
+}
+
+.div9-review {
+  font-size: 35px;
+  color: rgb(30, 48, 110);
+  font-weight: bolder;
+}
+
+.div9-container > img {
+  width: 140px;
+}
+
+.div9-asterick {
+  color: rgb(82, 82, 82);
+  padding-top: 100px;
+  font-size: small;
+}
+.div10 {
+  background-image: url(images/socks.jpg);
+  width: 100%;
+  height: 336px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.div10 > section {
+  height: 150px;
+}
+
+.div10-p1 {
+  color: rgb(30, 48, 110);
+  font-family: "Manrope", sans-serif;
+  font-size: 35px;
+  width: 250px;
+  margin-left: 80px;
+  margin-top: 130px;
+  font-weight: bolder;
+}
+
+.div10-a {
+  color: white;
+  text-decoration: none;
+  background-color: rgb(30, 48, 110);
+  margin-left: 80px;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.div10-a:hover {
+  background-color: #4652f2;
+}
+
+@media (max-width: 768px) {
+  .div3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .div7-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}

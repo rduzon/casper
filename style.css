@@ -1,0 +1,272 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(255, 255, 255);
+  height: 200px;
+  width: 100%;
+}
+
+.links {
+  color: white;
+  text-decoration: none;
+}
+
+.covid {
+  text-align: center;
+  background-color: #3f6399;
+  width: 100%;
+  height: 56px;
+  font-family: "Manrope", sans-serif;
+}
+
+.covid > p {
+  padding-top: 17px;
+  font-weight: bolder;
+  color: white;
+  margin-top: 0px;
+}
+
+.covid-link {
+  color: white;
+}
+
+.top-header-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.top-header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  font-family: "Manrope", sans-serif;
+}
+
+.reviews {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin-top: 8px;
+}
+
+.reviews > p {
+  margin-right: 20px;
+  font-size: 12px;
+  color: #606266;
+  margin-top: 0px;
+}
+
+.reviews > a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #606266;
+  margin-top: 0px;
+  margin-right: 20px;
+}
+
+.reviews img {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+.nav-header {
+  display: flex;
+  flex-direction: row;
+  color: rgb(30, 48, 110);
+  height: 56px;
+  width: 100%;
+  background-color: white;
+  justify-content: center;
+  align-content: center;
+}
+
+.nav-header a {
+  color: rgb(30, 48, 110);
+  text-decoration: none;
+}
+
+.account {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 8px;
+  font-size: 12px;
+  width: 20%;
+  margin-right: 20px;
+}
+
+.account a {
+  text-decoration: none;
+  color: #606266;
+}
+
+.company {
+  height: 100%;
+  flex-basis: 1;
+  align-items: center;
+  font-size: 30px;
+  align-items: center;
+}
+
+.company-name {
+  margin-top: 0px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  flex-basis: 3;
+  width: 70%;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav > a {
+  font-size: 15px;
+}
+
+.contact {
+  height: 100%;
+  flex-basis: 1;
+  width: 180px;
+}
+
+.perks {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 56px;
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+}
+
+.perks > a {
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(82, 82, 82);
+  margin-right: 20px;
+}
+
+.perks > a:hover {
+  color: rgb(30, 48, 110);
+}
+
+.fa-shopping-cart {
+  margin-left: 20px;
+}
+
+footer {
+  background-color: darkblue;
+  width: 100%;
+  height: 495px;
+  color: white;
+  font-family: "Manrope", sans-serif;
+}
+
+.nav-footer-container {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 2;
+}
+
+.footer-links-section {
+  margin-left: 15px;
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-links h3 {
+  padding-bottom: 15px;
+}
+
+.footer-links a {
+  color: lightgray;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.footer-links a:hover {
+  color: #acadac;
+}
+
+.footer-signup {
+  flex-grow: 1;
+}
+
+.footer-signup img {
+  width: 30px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 5px;
+}
+
+.very-bottom {
+  background-color: #526699;
+  text-align: center;
+  height: 60px;
+  padding-top: 20px;
+  font-size: 14px;
+  position: relative;
+  top: 120px;
+  width: 100%;
+}
+
+.very-bottom a {
+  text-decoration: none;
+  color: white;
+}
+
+.very-bottom-text {
+  margin-right: 10px;
+}
+
+.submit {
+  background-color: #4652f2;
+  color: #0e153f;
+  width: 100px;
+  height: 30px;
+  border-radius: 4px;
+  border: none;
+  padding: none;
+  font-size: 15px;
+}
+
+.submit:hover {
+  background-color: #d9e7ff;
+}
+
+.email {
+  width: 200px;
+  height: 30px;
+  border-radius: 4px;
+  border: none;
+  padding: none;
+}
+
+.social {
+  margin-top: 20px;
+}
+
+.chat {
+  width: 15%;
+  height: 10%;
+  position: fixed;
+  top: 650px;
+  right: 40px;
+}
